@@ -1,0 +1,11 @@
+body{background-color:deepskyblue;}
+li{list-style-type:none; border:2px solid blue; background-color:aqua; padding:5px; margin:2px; width:130px;
+text-align:center;}
+.drop{display:inline;}
+.hide li{display:none; margin-left:455px;}
+ul{display:block; padding:5px; margin:2px;}
+
+.drop:hover .hide li{display:block;background-color:navy; color:yellow;}
+div{float:left; width:30%;}
+img{ width:69%;}
+.hide{position:absolute;}
